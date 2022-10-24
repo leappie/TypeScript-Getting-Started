@@ -1,0 +1,15 @@
+{
+    "extends": "../tsconfig.base",
+    "compilerOptions": {
+        "removeComments": true,
+        // "outFile": "../js/app.js" // the outfile is not compatible with all module formats
+        "module": "commonjs",
+        "moduleResolution": "node"
+    },
+    // "include": [
+    //     "./**/*" // ** to look recusively and * to look for all ts types
+    // ]
+    "files": [
+        "../app/app.ts"
+    ]
+}
